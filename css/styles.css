@@ -47,8 +47,20 @@ ul{
     margin-right: 32px;
     margin-top: 5px;
 }
-.second{
+#second{
     width: 100%;
     height: 650px;
-    background: url("images/mart.jpg");
+}
+.container {
+  display: flex; 
+}
+
+.container > div {
+  flex: 1; 
+}
+
+.container img {
+  max-width: 100%;
+  height: 400px; 
+  padding: 10px 5px;
 }
