@@ -12,6 +12,9 @@ nav{
     width: 100%;
     padding: 10px 0;
     display: flex;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 h1{
     color: #fff;
@@ -94,6 +97,7 @@ span{
     background-color: #000;
     color: #fff;
     opacity: .8;
+    text-decoration: none;
 }
 footer{
     padding: 0;
@@ -111,3 +115,37 @@ footer div{
     padding: 0;
     padding-top: 50px;
 }
+@media only screen and (max-width: 769px) {
+    .tzu {
+        text-decoration: none;
+        color: #37B5B6;
+        font-size: 20px;
+        font-weight: 600;
+        padding-right: 25px;
+        padding-left: 1px;
+    }
+    #second{
+        width: 100%;
+        height: 450px;
+        background: url('../images/mart.jpg ') no-repeat;
+        background-size: 100% 450px;
+    }
+    h1{
+        font-size: 2.0em;
+    }
+    .one {
+        flex-grow: 1; 
+      }
+    .one{   
+        background: url('../images/hopuse.jpg') no-repeat;
+        background-size: 500px 400px;
+        margin: 10px 5px;
+    }
+    li{
+        position: relative;
+        display: inline;
+        float: right;
+        margin: 0 7px;
+        text-align: right;
+    }
+  }zz
